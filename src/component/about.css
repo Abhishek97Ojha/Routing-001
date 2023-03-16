@@ -1,0 +1,23 @@
+.about{
+    margin-top: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.733);
+}
+.about h1{
+    font-weight: 600;
+    font-size: 3rem;
+    margin: 3rem 0;
+}
+.about .para{
+    /* border: 2px solid black; */
+    width: 85%;
+    margin: 1rem 0;
+}
+.about .para p{
+    /* border: 2px solid; */
+    font-size: 1.2rem;
+    text-align: justify;
+}

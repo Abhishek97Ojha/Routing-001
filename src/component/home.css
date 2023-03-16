@@ -1,0 +1,70 @@
+.home{
+    /* border: 2px solid black; */
+    height: 100svh;
+    margin-top: 7.5rem;
+    display: flex;
+}
+.home .left{
+    /* border: 2px solid; */
+    width: 50%;
+    height: 100%;
+}
+.home .left .top{
+    /* border: 2px solid ; */
+    height: 80%;
+    padding-left: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.home .left .top h1{
+    color: #596aff;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+.home .left .top p{
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    color: rgba(0, 0, 0, 0.733);
+}
+.home .left .down{
+    /* border: 2px solid ; */
+    height: 15%;
+    display: flex;
+    padding-left: 4rem;
+    align-items: center;
+}
+.home .left .down button{
+    background-color:#596aff;
+    color: white;
+    width: 11rem;
+    height: 3.5rem;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    border: none;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home .left .down button:hover{
+    cursor: pointer;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transform: scale(1.05);
+}
+.home .left .down button:active{
+    transform: translateY(0.1px);
+    box-shadow: 0 1px #66666600;
+}
+.home .right{
+    /* border: 2px solid; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.home .right img{
+    width: 100%;
+    margin-bottom: 5rem;
+}

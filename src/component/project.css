@@ -1,0 +1,13 @@
+.project{
+    /* border: 2px solid; */
+    height: 100svh;
+    margin-top: 7.5rem;
+    background-image: url("https://www.urbansciencemep.com/_next/static/images/project2-6173d2e661e4f2bcec88e0ceaac8f29b.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+.project img{
+    width: 100%;
+    height:100%;
+}
